@@ -1,0 +1,25 @@
+INSERT INTO customers_ex4 VALUES
+(101,'Rahul',TO_DATE('15-05-1995','DD-MM-YYYY'));
+
+INSERT INTO customers_ex4 VALUES
+(102,'Anita',TO_DATE('20-10-1988','DD-MM-YYYY'));
+
+INSERT INTO customers_ex4 VALUES
+(103,'John',TO_DATE('01-01-1975','DD-MM-YYYY'));
+
+INSERT INTO loans_ex4 VALUES
+(1,101,500000,8.5,10);
+
+INSERT INTO loans_ex4 VALUES
+(2,102,300000,9.0,5);
+
+INSERT INTO accounts_ex4 VALUES
+(101,'Rahul',50000);
+
+INSERT INTO accounts_ex4 VALUES
+(102,'Anita',12000);
+
+INSERT INTO accounts_ex4 VALUES
+(103,'John',8000);
+
+COMMIT;

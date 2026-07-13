@@ -1,0 +1,10 @@
+INSERT INTO customers_ex5
+VALUES (101,'Rahul',50000,SYSDATE);
+
+INSERT INTO customers_ex5
+VALUES (102,'Anita',30000,SYSDATE);
+
+INSERT INTO customers_ex5
+VALUES (103,'John',10000,SYSDATE);
+
+COMMIT;

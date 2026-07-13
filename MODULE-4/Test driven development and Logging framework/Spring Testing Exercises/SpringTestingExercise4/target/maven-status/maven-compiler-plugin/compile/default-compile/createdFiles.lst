@@ -1,0 +1,5 @@
+com\cognizant\UserController.class
+com\cognizant\SpringTestingExercise4Application.class
+com\cognizant\UserRepository.class
+com\cognizant\UserService.class
+com\cognizant\User.class

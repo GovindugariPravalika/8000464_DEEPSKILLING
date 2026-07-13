@@ -1,0 +1,4 @@
+13:41:06.467 [com.cognizant.LoggingExample.main()] DEBUG com.cognizant.LoggingExample - This is a DEBUG message
+13:41:06.470 [com.cognizant.LoggingExample.main()] INFO  com.cognizant.LoggingExample - This is an INFO message
+13:41:06.471 [com.cognizant.LoggingExample.main()] WARN  com.cognizant.LoggingExample - This is a WARN message
+13:41:06.471 [com.cognizant.LoggingExample.main()] ERROR com.cognizant.LoggingExample - This is an ERROR message
