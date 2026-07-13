@@ -1,0 +1,15 @@
+public interface EmployeeRepository extends JpaRepository<Employee, Long>,
+        EmployeeRepositoryCustom {
+
+    List<Employee> findByName(String name);
+
+    List<Employee> findByEmailContaining(String text);
+
+    List<Employee> findByDepartmentId(Long departmentId);
+
+    @Query("SELECT e FROM Employee e WHERE e.email LIKE %?1%")
+    List<Employee> searchByEmail(String keyword);
+
+    @Query("SELECT e FROM Employee e WHERE e.department.name=?1")
+    List<Employee> findEmployeesByDepartment(String departmentName);
+}
